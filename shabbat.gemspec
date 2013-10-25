@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["adamklein.mail@gmail.com"]
   spec.summary       = "All the jewish methods you need"
   spec.description   = "The most Kosher GEM in the web. Extends Date and Time classes to add common jewish methods like Date.today.shabbat?, Date.next_shabbat, etc."
-  spec.homepage      = ""
+  spec.homepage      = "http://github.com/500tech/shabbat"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
