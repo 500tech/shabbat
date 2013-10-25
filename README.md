@@ -1,6 +1,7 @@
 # Shabbat
 
 The most Kosher GEM in the web!
+
 Gives all the methods a jewish programmer needs
 
 ## Installation
@@ -19,20 +20,20 @@ Or install it yourself as:
 
 ## Usage
 
-## Date & Time methods:
-```ruby
-Date.today.shabbat?
-Time.now.shabbat?
-Date.next_shabbat
-Date.last_shabbat
-10.days.from_now.last_shabbat
-10.days.from_now.next_shabbat
+#### Date & Time methods:
 
-```
+    Date.today.shabbat?
+    Time.now.shabbat?
+    Date.next_shabbat
+    Date.last_shabbat
+    10.days.from_now.last_shabbat
+    10.days.from_now.next_shabbat
+
 ## Some ideas for the future:
-  Date.next_yom_kipur
-  Date.today_.to_heb
-  Date.today.meuberet?
+
+      Date.next_yom_kipur
+      Date.today_.to_heb
+      Date.today.meuberet?
 
 ## Contributing
 
