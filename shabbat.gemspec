@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Shabbat::VERSION
   spec.authors       = ["adam klein"]
   spec.email         = ["adamklein.mail@gmail.com"]
-  spec.summary       = "All the jewish shortcuts you need"
-  spec.description   = "Extends Date and Time classes to add common jewish methods like Date.today.shabbat?, Date.next_shabbat, etc."
+  spec.summary       = "All the jewish methods you need"
+  spec.description   = "The most Kosher GEM in the web. Extends Date and Time classes to add common jewish methods like Date.today.shabbat?, Date.next_shabbat, etc."
   spec.homepage      = ""
   spec.license       = "MIT"
 
