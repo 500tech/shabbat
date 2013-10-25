@@ -2,15 +2,23 @@ require "active_support/all"
 module Shabbat
   extend ActiveSupport::Concern
   def shabbat?
-    self.to_date.wday == 6
+    to_date.saturday?
   end
   def next_shabbat
-    last_shabbat + 7.days
+    if shabbat?
+      to_date + 1.week
+    else
+      last_shabbat + 1.week
+    end
   end
   def last_shabbat
-    day = self.to_date
-    diff = day.wday % 6
-    day - diff.days
+    if shabbat?
+      to_date - 1.week
+    else
+      day = to_date
+      diff = day.wday + 1
+      day - diff.days
+    end
   end
   module ClassMethods
     def next_shabbat

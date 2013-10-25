@@ -3,5 +3,5 @@ require "shabbat/shabbat"
 require "shabbat/overrides"
 
 module Shabbat
-  # Your code goes here...
+  # Nothing here...
 end
